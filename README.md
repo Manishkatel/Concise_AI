@@ -39,7 +39,7 @@ Ensure you have Python and pip installed.
 ## Installation
 Clone the repository and install dependencies:
 ```
-git clone https://github.com/yourusername/web-summarizer.git
+git clone https://github.com/Manishkatel/text-summarizer.git
 cd langchain-summarizer
 pip install -r requirements.txt
 ```
