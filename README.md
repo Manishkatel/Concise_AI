@@ -6,10 +6,12 @@ This project is a Streamlit-based application that utilizes LangChain and Groq A
 
 ## 🛠 Features
 
--✅ Summarizes content from YouTube videos using yt-dlp
--✅ Extracts and processes text from websites
--✅ Uses LangChain and Groq AI models for intelligent text summarization
--✅ User-friendly Streamlit interface
+✅ Summarizes content from YouTube videos using yt-dlp
+✅ Extracts and processes text from websites
+✅ Uses LangChain and Groq AI models for intelligent text summarization
+✅ User-friendly Streamlit interface
+
+
 
 ## 📷 Demo / Screenshots
 
@@ -19,6 +21,8 @@ Here are some screenshots showcasing the application's functionality:
 ![Demo Image 2](static/demo2.png)
 ![Demo Image 3](static/demo3.png)
 ![Demo Image 4](static/demo4.png)
+
+
 
 ## 🏗 Tech Stack
 
