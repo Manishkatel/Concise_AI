@@ -50,7 +50,7 @@ if summarize_button:
         st.error("Please enter a valid URL (YouTube or website)")
     else:
         try:
-            with st.spinner("Processing..."):
+            with st.spinner("Processing..."):    # loader
                 if "youtube.com" in generic_url:
                     # Use yt-dlp to fetch video details
                     ydl_opts = {
@@ -75,7 +75,7 @@ if summarize_button:
                 # Initialize LLM
                 llm = ChatGroq(model="mixtral-8x7b-32768", groq_api_key=st.session_state.groq_api_key)
 
-                # Define the prompt template
+                # Define the prompt template with prompt
                 prompt_template = """
                 Provide a summary of the following content in 300 words:
                 Content: {text}
